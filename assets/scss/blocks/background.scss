@@ -1,0 +1,46 @@
+.background-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 110%;
+    height: 100vh;
+    z-index: -1;
+
+    .layer {
+        position: absolute;
+        top: 0;
+        left: -180px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .layer-primary {
+        background-image: url(../images/parallax_layer2.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100%;
+    }
+
+    .layer-secondary {
+        background-image: url(../images/parallax_layer1.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .layer-clouds {
+        background-image: url(../images/parallax_bg.jpg);
+        background-position: bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+    }
+}
